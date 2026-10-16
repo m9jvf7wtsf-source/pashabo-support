@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>パシャ簿 プライバシーポリシー</title>
+<meta name="description" content="レシート撮るだけ家計簿アプリ「パシャ簿」のプライバシーポリシーです。">
+<style>
+  :root {
+    --bg: #f6f7f4;
+    --surface: #ffffff;
+    --text: #1d2420;
+    --muted: #5d6862;
+    --line: #e2e6e1;
+    --accent: #1f8a5b;
+    --accent-soft: #e5f3ec;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121614;
+      --surface: #1b201d;
+      --text: #e9eeea;
+      --muted: #a2ada6;
+      --line: #2c332f;
+      --accent: #4cc48c;
+      --accent-soft: #1f3329;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", sans-serif;
+    line-height: 1.85;
+    -webkit-text-size-adjust: 100%;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+  .back { font-size: .9rem; }
+  h1 { font-size: 1.5rem; margin: 16px 0 4px; }
+  .date { color: var(--muted); font-size: .9rem; margin: 0 0 24px; }
+  .summary {
+    background: var(--accent-soft); border-radius: 14px;
+    padding: 18px 20px; margin-bottom: 8px;
+  }
+  .summary strong { display: block; margin-bottom: 6px; }
+  .summary ul { margin: 0; }
+  h2 {
+    font-size: 1.1rem; margin: 36px 0 10px;
+    padding-left: 10px; border-left: 4px solid var(--accent);
+    line-height: 1.4;
+  }
+  p { margin: 0 0 10px; }
+  ul, ol { padding-left: 1.3em; margin: 0 0 10px; }
+  li { margin-bottom: 4px; }
+  table {
+    width: 100%; border-collapse: collapse; font-size: .93rem;
+    background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+    overflow: hidden; margin-bottom: 10px;
+  }
+  th, td { padding: 10px 12px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  th { color: var(--muted); font-weight: 600; font-size: .85rem; background: var(--bg); }
+  a { color: var(--accent); word-break: break-all; }
+  footer { margin-top: 48px; text-align: center; color: var(--muted); font-size: .85rem; }
+  footer nav a { margin: 0 8px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <a class="back" href="./">← サポートページへ</a>
+  <h1>プライバシーポリシー</h1>
+  <p class="date">制定日：2026年10月15日</p>
+
+  <p>本プライバシーポリシーは、iOSアプリ「パシャ簿 - レシート撮るだけ家計簿」（以下「本アプリ」）における利用者の情報の取り扱いについて定めるものです。</p>
+
+  <div class="summary">
+    <strong>要点</strong>
+    <ul>
+      <li>レシートの画像と家計簿の内容は、お使いの端末の中にだけ保存されます。</li>
+      <li>開発者は、利用者の個人情報や家計簿のデータを収集・保存しません。</li>
+      <li>広告、アクセス解析、行動追跡（トラッキング）のしくみは使っていません。</li>
+    </ul>
+  </div>
+
+  <h2>1. 取り扱う情報</h2>
+  <p>本アプリは、家計簿の機能を提供するために次の情報を扱います。これらはすべて端末内で処理・保存され、開発者や第三者のサーバーに送信されることはありません。</p>
+  <table>
+    <thead>
+      <tr><th>情報</th><th>用途</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>カメラで撮影したレシートの画像</td><td>文字の読み取り、記録への添付</td></tr>
+      <tr><td>写真ライブラリから選んだ画像</td><td>文字の読み取り、記録への添付（選んだ画像だけを読み込みます）</td></tr>
+      <tr><td>店名・金額・日付・カテゴリ・メモ</td><td>家計簿の記録、集計、グラフ表示</td></tr>
+      <tr><td>毎月の予算の設定</td><td>残り予算の表示</td></tr>
+    </tbody>
+  </table>
+
+  <h2>2. 文字の読み取り（OCR）について</h2>
+  <p>レシートの文字の読み取りには、Appleが端末に提供している機能（Visionフレームワーク）を使用しており、処理はすべて端末内で完結します。画像を外部のサービスに送って読み取ることはありません。</p>
+
+  <h2>3. 端末へのアクセス許可</h2>
+  <ul>
+    <li><strong>カメラ</strong>：レシートを撮影するために使用します。許可しない場合でも、写真からの読み取りや手入力はご利用いただけます。許可はiPhoneの「設定」＞「パシャ簿」からいつでも変更できます。</li>
+    <li><strong>写真</strong>：iOS標準の写真選択画面を使用しており、利用者が選んだ画像だけを本アプリが受け取ります。写真ライブラリ全体へのアクセスは求めません。</li>
+  </ul>
+
+  <h2>4. 外部への送信と第三者提供</h2>
+  <p>本アプリは、利用者の情報を開発者や第三者に送信・提供しません。ただし、次の場合は利用者ご自身の操作またはAppleの仕組みによって情報が扱われます。</p>
+  <ul>
+    <li><strong>CSV書き出し（Pro機能）</strong>：利用者が書き出しと共有を行った場合、CSVファイルは利用者が選んだ共有先（メール、ファイル、他のアプリなど）に渡されます。共有後の取り扱いは、それぞれの共有先の規約によります。</li>
+    <li><strong>端末のバックアップ</strong>：iCloudバックアップやパソコンへのバックアップを有効にしている場合、本アプリのデータもバックアップに含まれることがあります。これらはAppleまたは利用者の管理下にあり、開発者が内容を見ることはできません。</li>
+  </ul>
+
+  <h2>5. アプリ内課金について</h2>
+  <p>Pro（自動更新サブスクリプション）の購入・決済・復元は、AppleのApp Storeの仕組み（StoreKit）を通じて行われます。本アプリは購入状態の確認のためにAppleと通信しますが、氏名、メールアドレス、支払い情報などを開発者が受け取ることはありません。決済に関する情報の取り扱いは、<a href="https://www.apple.com/jp/legal/privacy/" target="_blank" rel="noopener">Appleのプライバシーポリシー</a>に従います。</p>
+
+  <h2>6. 広告・アクセス解析・トラッキング</h2>
+  <p>本アプリは、広告の表示、アクセス解析ツール、利用者の行動を追跡するしくみを一切使用していません。</p>
+
+  <h2>7. データの削除</h2>
+  <p>記録は、一覧画面のスワイプ操作またはレシートの編集画面からいつでも削除できます。本アプリを端末から削除すると、本アプリに保存されたすべてのデータが削除されます。開発者はデータを保持していないため、開発者側で復元することはできません。</p>
+
+  <h2>8. お問い合わせで受け取る情報</h2>
+  <p>メールでお問い合わせいただいた場合、メールアドレスとお問い合わせの内容は、ご返信と不具合の調査のためにのみ使用し、それ以外の目的には使用しません。法令に基づく場合を除き、第三者に提供することはありません。</p>
+
+  <h2>9. お子さまのプライバシー</h2>
+  <p>本アプリは、年齢を問わず個人を特定できる情報を収集しません。</p>
+
+  <h2>10. ポリシーの変更</h2>
+  <p>本アプリの機能追加（たとえばクラウド同期など）や法令の変更に合わせて、本ポリシーを改定することがあります。重要な変更がある場合は、本ページでお知らせします。改定後のポリシーは、本ページに掲載した時点から効力を持ちます。</p>
+
+  <h2>11. お問い合わせ窓口</h2>
+  <p>本ポリシーに関するお問い合わせは、次のメールアドレスまでお寄せください。</p>
+  <p><a href="mailto:Kunzite510@protonmail.com">Kunzite510@protonmail.com</a></p>
+
+  <footer>
+    <nav>
+      <a href="./">サポート</a>
+      <a href="privacy.html">プライバシーポリシー</a>
+      <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">利用規約（EULA）</a>
+    </nav>
+    <p>&copy; 2026 パシャ簿</p>
+  </footer>
+
+</div>
+</body>
+</html>
